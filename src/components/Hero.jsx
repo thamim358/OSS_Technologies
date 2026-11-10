@@ -15,8 +15,8 @@ export default function Hero() {
       <div className="hero__inner">
         <div className="hero__lead">
           <p className="hero__note"><Globe className="hero__note-icon" /><span>OSS — OneStopShoppe Pte. Ltd.<br />Singapore-based company</span></p>
-          <h1 className="hero__title" id="hero-title">One partner.<br />Multiple business<br /><em>solutions.</em></h1>
-          <p className="hero__sub">Software development, AI solutions, business automation and reliable operational support, built around real business needs.</p>
+          <h1 className="hero__title" id="hero-title">Software, AI &amp;<br />Automation for<br /><em>business.</em></h1>
+          <p className="hero__sub">Singapore-based OSS Technologies builds custom software, practical AI solutions and automated workflows, supported by software testing and managed business operations.</p>
           <div className="hero__cta">
             <a className="btn btn--accent hero__go" href="#services">Explore services <span className="hero__go-dot" aria-hidden="true"><ArrowRight /></span></a>
             <a className="hero__secondary" href="#about">Get to know OSS <ArrowRight /></a>

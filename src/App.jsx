@@ -31,7 +31,7 @@ export default function App() {
           <div className="about-grid">
             <h2 id="about-title" className="section__display">One partner.<br /><em>Multiple solutions.</em></h2>
             <div className="about-copy">
-              <p>At OSS Technologies, we transform real world business challenges into smart, practical and scalable digital solutions.</p>
+              <p>Singapore-based OSS Technologies transforms real world business challenges into smart, practical and scalable digital solutions.</p>
               <p>Since 2022, we have invested in research and development, market studies and technology innovation to understand evolving business needs. Our work helps organizations improve efficiency, reduce manual effort and move toward a smarter digital future.</p>
               <a className="text-link" href="#services">Explore our services <ArrowRight /></a>
             </div>
