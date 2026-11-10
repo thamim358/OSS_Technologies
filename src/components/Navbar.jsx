@@ -60,7 +60,7 @@ export default function Navbar() {
               </li>
             ))}
           </ul>
-          <a className="btn btn--flame nav__sheet-cta" href="#services" onClick={() => setOpen(false)}>
+          <a className="btn btn--accent nav__sheet-cta" href="#services" onClick={() => setOpen(false)}>
             Explore Services
           </a>
         </div>

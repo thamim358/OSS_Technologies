@@ -23,23 +23,22 @@
   height: 100%;
   object-fit: cover;
   object-position: 68% center;
+  filter: hue-rotate(178deg) saturate(0.82) brightness(0.9);
   opacity: 0;
   transform: scale(1.04);
   transition: opacity 1.1s var(--ease-out), transform 2.4s var(--ease-out);
 }
 .hero__video.is-ready { opacity: 1; transform: scale(1); }
 
-/* This footage is bright orange from the horizon rightwards and near-black in the
-   upper left, so the scrim is asymmetric: a heavy left wash under the copy, a soft
-   floor for the partner strip, and almost nothing over the subject. */
+/* A cool asymmetric scrim keeps the copy readable over the tinted footage. */
 .hero__scrim {
   position: absolute;
   inset: 0;
   background:
-    linear-gradient(96deg, rgba(10, 3, 0, 0.9) 0%, rgba(14, 4, 0, 0.66) 30%,
-      rgba(20, 6, 0, 0.16) 52%, rgba(20, 6, 0, 0) 68%),
-    linear-gradient(0deg, rgba(9, 2, 0, 0.78) 0%, rgba(9, 2, 0, 0.12) 28%, rgba(0, 0, 0, 0) 46%),
-    linear-gradient(180deg, rgba(8, 2, 0, 0.5) 0%, rgba(0, 0, 0, 0) 22%);
+    linear-gradient(96deg, rgba(3, 15, 27, 0.91) 0%, rgba(5, 25, 40, 0.69) 30%,
+      rgba(8, 35, 52, 0.2) 52%, rgba(8, 35, 52, 0) 68%),
+    linear-gradient(0deg, rgba(3, 14, 25, 0.82) 0%, rgba(3, 14, 25, 0.16) 28%, rgba(0, 0, 0, 0) 46%),
+    linear-gradient(180deg, rgba(3, 14, 25, 0.54) 0%, rgba(0, 0, 0, 0) 22%);
 }
 
 .hero__rules {
@@ -127,7 +126,7 @@
   height: 2.55em;
   border-radius: 999px;
   background: #fff;
-  color: #1a0600;
+  color: #082538;
 }
 .hero__go-dot svg { width: 1.15em; height: 1.15em; }
 
@@ -152,7 +151,7 @@
   height: calc(28px * var(--ui-scale));
   margin-left: -9px;
   border-radius: 999px;
-  border: 2px solid rgba(22, 7, 0, 0.85);
+  border: 2px solid rgba(5, 26, 42, 0.85);
   background: linear-gradient(140deg, var(--a), var(--b));
 }
 .hero__faces i:first-child { margin-left: 0; }
@@ -194,7 +193,7 @@
   box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.09);
 }
 .stat:nth-child(2) {
-  background: linear-gradient(150deg, rgba(120, 30, 4, 0.5), rgba(48, 14, 2, 0.5));
+  background: linear-gradient(150deg, rgba(15, 95, 123, 0.54), rgba(8, 38, 59, 0.58));
 }
 
 .stat__mark {
@@ -326,7 +325,7 @@
   letter-spacing: -0.01em;
   color: rgba(255, 255, 255, 0.86);
 }
-.hero__partners li:not(:last-child)::after { content: '·'; margin-left: clamp(9px, 1.5vw, 21px); color: var(--flame-lit); }
+.hero__partners li:not(:last-child)::after { content: '·'; margin-left: clamp(9px, 1.5vw, 21px); color: var(--accent-lit); }
 .hero__partners li svg {
   width: calc(17px * var(--ui-scale));
   height: calc(17px * var(--ui-scale));

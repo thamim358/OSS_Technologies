@@ -1,8 +1,8 @@
 export const Logo = (props) => (
   <svg viewBox="0 0 28 28" fill="none" aria-hidden="true" {...props}>
-    <path d="M14 1.6 20.3 8 14 14.4 7.7 8 14 1.6Z" fill="#FF6A00" />
-    <path d="M6.4 9.3 12.7 15.7 6.4 22.1 0.1 15.7 6.4 9.3Z" fill="#FF3D00" />
-    <path d="M21.6 9.3 27.9 15.7 21.6 22.1 15.3 15.7 21.6 9.3Z" fill="#FF9A2E" />
+    <path d="M14 1.6 20.3 8 14 14.4 7.7 8 14 1.6Z" fill="#4DD8E8" />
+    <path d="M6.4 9.3 12.7 15.7 6.4 22.1 0.1 15.7 6.4 9.3Z" fill="#079DB8" />
+    <path d="M21.6 9.3 27.9 15.7 21.6 22.1 15.3 15.7 21.6 9.3Z" fill="#77EAF3" />
   </svg>
 )
 

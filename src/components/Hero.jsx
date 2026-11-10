@@ -33,7 +33,7 @@ export default function Hero() {
           <h1 className="hero__title" id="hero-title">One partner.<br />Multiple business<br /><em>solutions.</em></h1>
           <p className="hero__sub">Software development, AI solutions, business automation and reliable operational support, built around real business needs.</p>
           <div className="hero__cta">
-            <a className="btn btn--flame hero__go" href="#services">Explore services <span className="hero__go-dot" aria-hidden="true"><ArrowRight /></span></a>
+            <a className="btn btn--accent hero__go" href="#services">Explore services <span className="hero__go-dot" aria-hidden="true"><ArrowRight /></span></a>
             <a className="hero__secondary" href="#about">Get to know OSS <ArrowRight /></a>
           </div>
           <ul className="hero__stats">
