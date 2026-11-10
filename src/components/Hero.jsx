@@ -41,7 +41,7 @@ export default function Hero() {
 
       <div className="hero__inner">
         <div className="hero__lead">
-          <p className="hero__note"><Globe className="hero__note-icon" /><span>OSS — OneStopShoppe Pte. Ltd.<br />Singapore & India</span></p>
+          <p className="hero__note"><Globe className="hero__note-icon" /><span>OSS — OneStopShoppe Pte. Ltd.<br />Singapore-based company</span></p>
           <h1 className="hero__title" id="hero-title">One partner.<br />Multiple business<br /><em>solutions.</em></h1>
           <p className="hero__sub">Software development, AI solutions, business automation and reliable operational support, built around real business needs.</p>
           <div className="hero__cta">
@@ -50,7 +50,7 @@ export default function Hero() {
           </div>
           <ul className="hero__stats">
             <li className="stat"><span className="stat__mark" aria-hidden="true">✳</span><span className="stat__value">2022</span><span className="stat__label">Investing in R&D since</span><span className="stat__rule" aria-hidden="true" /></li>
-            <li className="stat"><span className="stat__mark" aria-hidden="true">✳</span><span className="stat__value">SG + IN</span><span className="stat__label">Singapore focus, India based support</span><span className="stat__rule" aria-hidden="true" /></li>
+            <li className="stat"><span className="stat__mark" aria-hidden="true">✳</span><span className="stat__value">MY + LK</span><span className="stat__label">Planned APAC expansion</span><span className="stat__rule" aria-hidden="true" /></li>
           </ul>
         </div>
         <aside className="hero__ghost" aria-hidden="true"><div className="ghost__eyebrow">OSS / TECHNOLOGIES</div><div className="ghost__orbit"><span /><span /><span /></div><h2 className="ghost__title">Practical solutions.<br />Connected thinking.</h2><p className="ghost__copy">Development · Automation · AI · Operations</p></aside>

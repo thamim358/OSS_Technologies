@@ -53,13 +53,13 @@ export default function App() {
         </section>
 
         <section className="section section--operations" id="operations" aria-labelledby="operations-title">
-          <div className="operations__intro"><div className="section__eyebrow"><span className="eyebrow-dot" /> Managed services</div><h2 id="operations-title" className="section__display">Focus on your<br /><em>core business.</em></h2><p>Let OSS handle the operational workload. Our India based team provides reliable back office and business support to Singapore organizations, giving internal teams more room for higher value work.</p></div>
+          <div className="operations__intro"><div className="section__eyebrow"><span className="eyebrow-dot" /> Managed services</div><h2 id="operations-title" className="section__display">Focus on your<br /><em>core business.</em></h2><p>Let OSS handle the operational workload. Our teams in India and Sri Lanka provide reliable back office and business support to Singapore organizations, giving internal teams more room for higher value work.</p></div>
           <div className="operations__list">{operations.map((item, index) => <div className="operations__item" key={item}><span>{String(index + 1).padStart(2, '0')}</span>{item}<ArrowRight /></div>)}</div>
         </section>
 
         <section className="section section--talent" id="talent" aria-labelledby="talent-title">
           <div className="section__eyebrow"><span className="eyebrow-dot" /> Manpower consultancy</div>
-          <div className="section__heading-row"><h2 id="talent-title" className="section__display">The right people.<br /><em>The right roles.</em></h2><p>Flexible workforce solutions for businesses in Singapore and Malaysia. We support recruitment and workforce planning, from understanding staffing needs through sourcing, coordination and placement.</p></div>
+          <div className="section__heading-row"><h2 id="talent-title" className="section__display">The right people.<br /><em>The right roles.</em></h2><p>Flexible workforce solutions from our Singapore base, with plans to explore Malaysia and Sri Lanka as part of our APAC expansion. We support recruitment and workforce planning, from understanding staffing needs through sourcing, coordination and placement.</p></div>
           <div className="talent-grid">{staffing.map(([title, description]) => <article className="talent-card" key={title}><span aria-hidden="true">✳</span><h3>{title}</h3><p>{description}</p></article>)}</div>
           <div className="process"><h3>Our recruitment process</h3><ol>{process.map((step, index) => <li key={step}><span>{String(index + 1).padStart(2, '0')}</span>{step}</li>)}</ol></div>
           <p className="talent-note">Flexible workforce solutions · Diverse talent pools · Recruitment coordination · Cost effective staffing approaches · Industry focused recruitment</p>
