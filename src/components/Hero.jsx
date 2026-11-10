@@ -26,7 +26,7 @@ export default function Hero() {
             <li className="stat"><span className="stat__mark" aria-hidden="true">✳</span><span className="stat__value">MY + LK</span><span className="stat__label">Planned APAC expansion</span><span className="stat__rule" aria-hidden="true" /></li>
           </ul>
         </div>
-        <aside className="hero__ghost" aria-hidden="true"><div className="ghost__eyebrow">OSS / TECHNOLOGIES</div><div className="ghost__orbit"><span /><span /><span /></div><h2 className="ghost__title">Practical solutions.<br />Connected thinking.</h2><p className="ghost__copy">Development · Automation · AI · Operations</p></aside>
+        <aside className="hero__ghost" aria-label="The OSS approach"><div className="ghost__eyebrow">OSS / TECHNOLOGIES</div><div className="ghost__orbit" aria-hidden="true"><span /><span /><span /></div><h2 className="ghost__title">Practical solutions.<br />Connected thinking.</h2><p className="ghost__copy">Development · Automation · AI · Operations</p></aside>
       </div>
 
       <div className="hero__foot"><span className="hero__watermark" aria-hidden="true">OSS</span><div className="hero__partners"><span className="hero__partners-label">What we do</span><ul>{focusAreas.map((area) => <li key={area}>{area}</li>)}</ul></div></div>
