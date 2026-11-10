@@ -1,28 +1,13 @@
-import { useEffect, useRef, useState } from 'react'
 import { ArrowRight, Globe } from './icons.jsx'
 import './Hero.css'
 
 const focusAreas = ['Software', 'Automation', 'AI', 'Operations', 'Talent']
 
 export default function Hero() {
-  const videoRef = useRef(null)
-  const [ready, setReady] = useState(false)
-
-  useEffect(() => {
-    const video = videoRef.current
-    if (!video) return
-    const play = video.play()
-    if (play?.catch) play.catch(() => {})
-    if (window.matchMedia('(prefers-reduced-motion: reduce)').matches) {
-      video.pause()
-      setReady(true)
-    }
-  }, [])
-
   return (
     <section className="hero" aria-labelledby="hero-title">
       <div className="hero__media">
-        <video ref={videoRef} className={`hero__video ${ready ? 'is-ready' : ''}`} src="/hero-loop.mp4" autoPlay muted loop playsInline preload="auto" aria-hidden="true" onCanPlay={() => setReady(true)} />
+        <img className="hero__backdrop" src="/hero-background.png" alt="" aria-hidden="true" />
         <div className="hero__scrim" aria-hidden="true" />
         <div className="hero__rules" aria-hidden="true"><span /><span /><span /></div>
       </div>
